@@ -1,0 +1,182 @@
+/*select, p, label {
+  width: 120px;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 40px; 
+  clear: both;
+  text-align: center;
+  background-color: pink;
+}
+p {
+  color: pink;
+  background-color: black;
+}
+
+/*input {
+  width: 120px;
+  float: left;
+  margin-left: 40px; 
+  background: transparent; /*прозрач фон
+  background-color: pink;
+  border: none;
+  clear: both;
+  text-align: center;*/
+
+
+form.calkulyator {
+  width: 250px;
+  background-color: blue;
+  border: 1px solid grey; 
+  margin: 0 auto;
+  float: left;
+  clear: both;
+}
+label {
+  width: 220px;
+  padding: 5px 0px;
+  color: black;
+  text-align: center;
+  float: left;
+  clear: both;
+  float: left;
+  clear: both;
+}
+
+select,p,input {
+  width: 220px;
+  float: left;
+  /*border: 1px solid grey;*/
+  float: left;
+  clear: both;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: #eee;
+  color: black;
+}
+
+
+
+.calc-wrapper {
+display: table;
+margin: 0 auto;
+padding: 15px;
+}
+
+.error {
+  background-color: red;
+}
+/*.calc-wrapper {
+display: none;
+}*/
+#calc-info{
+  display: none;
+  position: absolute;
+  background-color: rgba(255,255,255,.6); 
+  width: 80%;
+  height: 90%;
+  margin: 0 auto;
+  clear: both;
+  margin-left: 10%;
+}
+
+body {
+  background-color: orange;
+}
+a.open-modal {
+  position: fixed;
+  top: 100px;
+  left: 250px;
+  border-radius: 50px;
+  background-color: grey;
+  padding: 20px;
+  color: yellow;
+  text-decoration: none;
+
+}
+
+/*for galery1:*/
+ul{list-style:none; position: relative;padding: 0;margin: 0}
+
+.gallery {width: 660px; margin: 0 auto 20px auto;}
+.gallery ul {padding-left: 10px;}
+.gallery li {display: inline; margin-right: 3px; width: 105px; float: left;}
+.main-img {background: url(bg_img.png) no-repeat 0 0; padding: 26px;}
+.gallery li img {width: 100%;}
+.gallery .active {border: 3px solid blue;}
+
+
+.slider-wraper {width: 660px; margin: 0 auto 20px auto;overflow: hidden; position: relative;}
+.slider-wraper .secondSlider  {width:150000px}
+.slider-wraper .secondSlider  li{float:left;width:660px;}
+
+.slider-wraper .secondSlider  li img {height: 100%; display: table; margin: 0 auto; float:left;}
+
+.next-btn,.prev-btn{
+  position: absolute;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+  background: black;
+  border: solid pink 2px;
+  border-radius: 100px;
+
+}
+.next-btn{
+  right: 0;
+  float: right;
+  margin-top: 25%;
+}
+.prev-btn{
+  left: 0;
+  float: left;
+  margin-top: 25%;
+}
+.slider-wraper {
+  height: 500px;
+}
+
+.disabled{display:none}
+
+
+
+
+
+
+
+ul{list-style:none;}
+
+
+.slider-wraper {/*width: 100%;*/ margin: 0 auto 0px auto;overflow: hidden;height:450px;position:relative;}
+.slider-wraper >ul {
+  position:relative;
+  top:0;
+}
+.slider-wraper ul  {padding: 0 !important;margin:0 !important;height:300px;float: left;}
+.slider-wraper ul  li{float:left; height:300px;overflow:hidden;}
+.slider-wraper li img{width:100%;}
+
+.slider-wraper .thumbnails{
+  position:relative;
+  float: left;
+  /*width:100%;*/
+}
+.slider-wraper .thumbnails li{
+  border: 1px solid transparent;
+}
+.slider-wraper .thumbnails li.active{
+  border:1px solid red;
+}
+ .next-btn,.prev-btn{
+  width: 50px;
+height: 50px;
+background: black;
+z-index: 999999;
+position:absolute;
+}
+
+.next-btn{
+  right: 0;
+}
+.prev-btn{
+  left: 0
+}
